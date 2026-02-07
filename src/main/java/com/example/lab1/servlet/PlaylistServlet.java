@@ -19,7 +19,6 @@ public class PlaylistServlet extends HttpServlet {
     private static int nextId = 1;
 
     static {
-        // Инициализация тестовых данных
         Playlist rockPlaylist = new Playlist(nextId++, "Rock Classics", "Best rock songs of all time", "Admin");
         rockPlaylist.addSong(new Song(1, "Bohemian Rhapsody", "Queen", "A Night at the Opera", 354, "Rock"));
         rockPlaylist.addSong(new Song(5, "Hotel California", "Eagles", "Hotel California", 391, "Rock"));

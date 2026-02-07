@@ -18,7 +18,6 @@ public class SongServlet extends HttpServlet {
     private static int nextId = 1;
 
     static {
-        // Инициализация тестовых данных
         songs.add(new Song(nextId++, "Bohemian Rhapsody", "Queen", "A Night at the Opera", 354, "Rock"));
         songs.add(new Song(nextId++, "Imagine", "John Lennon", "Imagine", 183, "Pop"));
         songs.add(new Song(nextId++, "Smells Like Teen Spirit", "Nirvana", "Nevermind", 301, "Grunge"));
