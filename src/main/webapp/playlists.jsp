@@ -388,7 +388,6 @@
                 %>
             </div>
 
-
             <div class="add-form">
                 <h2>➕ Создать плейлист</h2>
                 <form method="post" action="playlists">
